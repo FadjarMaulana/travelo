@@ -1,0 +1,110 @@
+body {
+    background-color: #ecf0f1;
+}
+
+#head {
+    background: url(../travelo/img/foto1.jpg);
+    background-size: cover;
+    height: 593px;
+}
+
+#nav {
+    background-color: cornflowerblue;
+}
+
+#indo {
+    margin-top: 250px;
+}
+
+#sub {
+    background-color: cornflowerblue;
+    height: 90px;
+}
+
+#popular1 {
+    margin-bottom: 50px;
+}
+
+#popular2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#popular3 {
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 50PX;
+}
+
+#our {
+    background: url(../travelo/img/foto8.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 100px;
+}
+
+#foto {
+    height: 200px;
+}
+
+#text {
+    margin-top: 140px;
+}
+
+#foto1 {
+    height: 200px;
+}
+
+#more {
+    margin-bottom: 100px;
+}
+
+#enjoy {
+    background: url(../travelo/img/foto16.jpeg);
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+#vidio {
+    padding-top: 200px;
+}
+
+#ikon {
+    margin-bottom: 100px;
+}
+
+#foto2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+#caption {
+    margin-bottom: 100px;
+}
+
+#quote {
+    background-color: cornflowerblue;
+    margin-bottom: 100px;
+}
+
+#foto3 {
+    height: 200px;
+}
+
+#recent {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#footer {
+    background-color: cornflowerblue;
+}
+
+#foto4 {
+    height: 80px;
+}
