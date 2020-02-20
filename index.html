@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
 </head>
 <body>
     
-    <div class="container-fluid" id="nav">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
                     <a class="navbar-brand" style="color: whitesmoke;" href="#"><i class="fa fa-compass" style="font-size:36px;color: whitesmoke"></i> TRAVELO</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -80,17 +81,17 @@
                     <div class="carousel-inner">
                       <div class="carousel-item active text-center">
                         <h1 class="text-center" style="color: blue;" id="indo">INDONESIA</h1>
-                        <h6 class="text-center" style="color: whitesmoke;">TOURIST DESTINATION</h6>
+                        <h6 class="text-center" style="color: royalblue;">TOURIST DESTINATION</h6>
                         <button class="btn btn-primary">EXPLORE NOW</button>
                       </div>
                       <div class="carousel-item text-center">
                           <h1 class="text-center" style="color: blue;" id="indo">INDONESIA</h1>
-                          <h6 class="text-center" style="color: whitesmoke;">TOURIST DESTINATION</h6>
+                          <h6 class="text-center" style="color: royalblue;">WONDERFUL INDONESIA</h6>
                           <button class="btn btn-primary">EXPLORE NOW</button>
                       </div>
                       <div class="carousel-item text-center">
                           <h1 class="text-center" style="color: blue;" id="indo">INDONESIA</h1>
-                          <h6 class="text-center" style="color: whitesmoke;">TOURIST DESTINATION</h6>
+                          <h6 class="text-center" style="color: royalblue;">UNITY IN DEVERSITY</h6>
                           <button class="btn btn-primary">EXPLORE NOW</button>
                       </div>
                     </div>
@@ -123,7 +124,9 @@
                     <div class="form-group col-3 col-sm-3">
                         <br><select class="form-control">
                             <option selected>Travel Type</option>
-                            <option>...</option>
+                            <option>Business Travel</option>
+                            <option>Solo Travel</option>
+                            <option>Family Travel</option>
                         </select>
                     </div>
                     <div class="form-group col-3 col-sm-3">
@@ -223,9 +226,10 @@
 
         <div class="row">
             <div class="col-sm-4">
-                <div class="card">
+                <div class="card" id="card">
                     <img src="img/foto9.jpg" class="card-img-top img-fluid" id="foto1">
                     <div class="card-body">
+                      <button class="btn btn-primary rounded-pill" id="tombol">Rp. 5 JT</button>
                       <h5>Candi Borobudur</h5>
                       <p>Magelang, Jawa Tengah</p>
                       <a class="card-link"><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i> 
@@ -234,9 +238,10 @@
                     </div>
                   </div>
                   <br>
-                  <div class="card">
+                  <div class="card" id="card">
                     <img src="img/foto12.jpg" class="card-img-top img-fluid" id="foto1">
                     <div class="card-body">
+                      <button class="btn btn-primary rounded-pill" id="tombol">Rp. 5 JT</button>
                       <h5>Jembatan Ampera</h5>
                       <p>Palembang, Sumatera Selatan</p>
                       <a class="card-link"><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i> 
@@ -246,9 +251,10 @@
                   </div><br>
             </div>
             <div class="col-sm-4">
-                <div class="card">
+                <div class="card" id="card">
                     <img src="img/foto10.jpg" class="card-img-top img-fluid" id="foto1">
                     <div class="card-body">
+                      <button class="btn btn-primary rounded-pill" id="tombol">Rp. 5 JT</button>
                       <h5>Pura Ulun Danu Bratan</h5>
                       <p>Tabanan, Bali</p>
                       <a class="card-link"><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i> 
@@ -257,9 +263,10 @@
                     </div>
                   </div>
                   <br>
-                  <div class="card">
+                  <div class="card" id="card">
                     <img src="img/foto13.jpg" class="card-img-top img-fluid" id="foto1">
                     <div class="card-body">
+                      <button class="btn btn-primary rounded-pill" id="tombol">Rp. 5 JT</button>
                       <h5>Masjid Raya Baiturrahman</h5>
                       <p>Kota Banda Aceh, Aceh</p>
                       <a class="card-link"><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i> 
@@ -269,9 +276,10 @@
                   </div><br>
             </div>
             <div class="col-sm-4">
-                <div class="card">
+                <div class="card" id="card">
                     <img src="img/foto11.jpg" class="card-img-top img-fluid" id="foto1">
                     <div class="card-body">
+                      <button class="btn btn-primary rounded-pill" id="tombol">Rp. 5 JT</button>
                       <h5>Monumen Nasional</h5>
                       <p>DKI Jakarta</p>
                       <a class="card-link"><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i> 
@@ -280,9 +288,10 @@
                     </div>
                   </div>
                   <br>
-                  <div class="card">
+                  <div class="card" id="card">
                     <img src="img/foto14.png" class="card-img-top img-fluid" id="foto1">
                     <div class="card-body">
+                      <button class="btn btn-primary rounded-pill" id="tombol">Rp. 5 JT</button>
                       <h5>Monumen Simpang Lima</h5>
                       <p>Kediri, Jawa Timur</p>
                       <a class="card-link"><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i><i class="fa fa-star-o" style="color: goldenrod;"></i> 
@@ -300,7 +309,7 @@
     </div>
 
     <div class="container-fluid text-center" id="enjoy">
-        <h1 style="color: whitesmoke;" id="vidio">ENJOY VIDEO</h1>
+        <h1 style="color: blue;" id="vidio">ENJOY VIDEO</h1>
         <i class="fa fa-play-circle" style="font-size:48px;color: blue"></i>
     </div>
 
@@ -324,8 +333,8 @@
         </div>
     </div>
 
-    <div class="container-fluid" id="quote">
-        <div class="row text-center">
+    <div class="container-fluid">
+        <div class="row text-center" id="jumbo">
             <div class="col-sm-12">
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -335,24 +344,30 @@
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="img/foto17.jpg" class="rounded-circle" id="foto2">
-                        <div class="carousel-caption d-none d-md-block">
-                          <p style="color: black;">"Nature and culture are prime attractions of Indonesian tourism. The former can boast a unique combination of a tropical climate, a vast archipelago, and a long stretch of beaches, and the latter complement those with a rich cultural heritage reflecting Indonesia's dynamic history and ethnic diversity."</p>
-                          <p class="blockquote-footer">Fadjar</p>
+                        <div class="jumbotron jumbotron-fluid" id="jumbo">
+                          <div class="container">
+                            <img src="img/foto17.jpg" class="rounded-circle" id="foto2">
+                            <p style="color: black;" id="text1">"Nature and culture are prime attractions of Indonesian tourism."</p>
+                            <p class="blockquote-footer">Fadjar</p>
+                          </div>
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img src="img/foto18.jpg" class="rounded-circle" id="foto2">
-                        <div class="carousel-caption d-none d-md-block">
-                            <p style="color: black;">"Indonesia has a well-preserved natural ecosystem with rain forests that stretch over about 57% of Indonesia's land (225 million acres)."</p>
+                        <div class="jumbotron jumbotron-fluid" id="jumbo">
+                          <div class="container">
+                            <img src="img/foto18.jpg" class="rounded-circle" id="foto2">
+                            <p style="color: black;" id="text1">"Indonesia has a well-preserved natural ecosystem with rain forests that stretch over about 57% of Indonesia's land (225 million acres)."</p>
                             <p class="blockquote-footer">Maulana</p>
+                          </div>
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img src="img/foto19.jpg" class="rounded-circle" id="foto2">
-                        <div class="carousel-caption d-none d-md-block">
-                            <p style="color: black;">"Since 2011, Wonderful Indonesia has been the slogan of the country's international marketing campaign to promote tourism."</p>
+                        <div class="jumbotron jumbotron-fluid" id="jumbo">
+                          <div class="container">
+                            <img src="img/foto19.jpg" class="rounded-circle" id="foto2">
+                            <p style="color: black;" id="text1">"Since 2011, Wonderful Indonesia has been the slogan of the country's international marketing campaign to promote tourism."</p>
                             <p class="blockquote-footer">Fadjar Maulana</p>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -372,7 +387,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-sm-12">
-                <h3>RECENT TRIPS</h3>
+                <h3 id="recent1">RECENT TRIPS</h3>
             </div>
         </div>
 
